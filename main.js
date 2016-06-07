@@ -29,9 +29,8 @@ var domainname = '//' + window.location.host;
 var frameworkname = 'default2015';
 var stylesheetlocation = domainname + '/Frameworks/' + frameworkname + '/css/'
 
-//loadcss(stylesheetlocation + "font-awesome.min.css", "css");
+loadcss(stylesheetlocation + "font-awesome.min.css", "css");
 loadcss(stylesheetlocation + "bootstrap-social.min.css", "css");
-include('//use.fontawesome.com/2e09ea3714.js');
 include(domainname + '/Frameworks/' + frameworkname + '/js/bootstrap.min.js');
 
 ;
